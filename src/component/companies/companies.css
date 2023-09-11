@@ -1,0 +1,8 @@
+.comp{
+    justify-content: space-around;
+    gap:10rem;
+}
+
+.comp >img{
+    width: 9rem;
+}

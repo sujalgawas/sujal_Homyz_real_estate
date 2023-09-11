@@ -1,0 +1,71 @@
+.con-wrapper {
+    margin: 50px 0px 50px;
+}
+.contact-main{
+    margin-top: 25px;
+}
+.con-img>img {
+    height: 550px;
+    width: 480px;
+    border-radius: 250px 250px 0px 0px;
+}
+
+.head-con {
+    gap: 10px;
+}
+
+.con-top {
+    gap: 20px;
+}
+
+.rectangle {
+    padding: 20px;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 300ms ease-in;
+}
+
+.rectangle:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+
+.con-button {
+    padding: 20px 0px 0px;
+}
+
+.con-button>button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 255);
+    width: 230px;
+    height: 40px;
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.con-button>button:hover{
+    transform: scale(0.9);
+    border: none;
+    border-radius: 5px;
+    color: rgb(238, 238, 255);
+    width: 230px;
+    height: 40px;
+    background-color: var(--blue);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.contact-main{
+    gap:30px;
+}
+
+.text-con .primaryText{
+    font-weight: 600;
+    font-size: 1.2rem;
+}

@@ -65,6 +65,10 @@ a {
   justify-content: center;
   align-items: flex-end;
 }
+.flexJSA{
+  display: flex;
+  justify-content: space-around;
+}
 
 .primaryText {
   color: #1f3e72;

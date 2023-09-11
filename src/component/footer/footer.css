@@ -1,0 +1,22 @@
+.fo-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-left>img{
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 22px;
+    font-weight: 500;
+    padding: 25px 0px 0px;
+}
